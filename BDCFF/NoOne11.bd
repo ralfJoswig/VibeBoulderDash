@@ -1,0 +1,792 @@
+; Converted using Tim Stridmann's X2BDCFF converter.
+; Last modified: 29 July 2006
+
+[BDCFF]
+[game]
+Name=No One's Boulder 11
+Author=No One
+Date=7 February 1987
+Charset=Original
+Fontset=Original
+Caves=20
+Levels=5
+
+[cave]
+Name=Cave A
+DiamondValue=90
+DiamondsRequired=4 4 4 4 4
+CaveTime=200 180 160 140 120
+Colors=Red Orange White
+
+[objects]
+FillRect=0 9 38 11 STEELWALL DIRT
+Rectangle=18 0 20 21 STEELWALL
+Rectangle=2 2 16 7 STEELWALL
+Rectangle=22 2 37 7 STEELWALL
+Rectangle=22 13 37 19 STEELWALL
+Rectangle=2 13 16 19 STEELWALL
+Rectangle=4 15 14 17 STEELWALL
+Rectangle=24 15 35 17 STEELWALL
+FillRect=17 8 21 12 DIRT
+Point=16 8 STEELWALL
+Point=22 8 STEELWALL
+Point=22 12 STEELWALL
+Point=16 12 STEELWALL
+Point=15 13 DIRT
+Point=23 13 DIRT
+Point=23 7 DIRT
+Point=15 7 DIRT
+Point=15 15 STEELWALL
+Point=23 15 STEELWALL
+Line=24 16 34 16 SPACE
+Line=5 16 14 16 SPACE
+Rectangle=4 4 14 6 STEELWALL
+Rectangle=24 4 35 6 STEELWALL
+Line=25 6 35 6 SPACE
+Line=4 6 13 6 SPACE
+Point=4 6 FIREFLYD
+Point=13 6 DIAMOND
+Point=25 6 DIAMOND
+Point=35 6 FIREFLYD
+Point=34 16 DIAMOND
+Point=24 16 FIREFLYD
+Point=14 16 FIREFLYD
+Point=5 16 DIAMOND
+Point=19 13 INBOX
+Point=19 1 BOULDER
+Point=19 3 BOULDER
+Point=19 5 BOULDER
+Point=19 7 BOULDER
+Line=19 14 19 20 SPACE
+Point=1 10 OUTBOX
+Point=9 15 DIRT
+Point=9 4 DIRT
+Point=30 4 DIRT
+Point=30 15 DIRT
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave B
+DiamondValue=30
+DiamondsRequired=10 10 10 10 10
+CaveTime=200 180 160 140 120
+Colors=LightBlue Green White
+
+[objects]
+FillRect=4 0 25 9 STEELWALL
+FillRect=4 13 25 21 STEELWALL
+Rectangle=4 10 8 12 SPACE
+Rectangle=21 10 25 12 SPACE
+Rectangle=12 10 17 12 SPACE
+FillRect=25 7 27 15 STEELWALL DIRT
+Rectangle=5 14 26 20 DIRT
+Line=26 15 38 15 STEELWALL
+FillRect=27 17 38 20 STEELWALL
+Line=38 14 38 15 BOULDER
+FillRect=29 7 37 13 STEELWALL
+Line=13 17 13 19 DIRT
+Line=14 19 14 20 WALL
+Point=14 18 BOULDER
+FillRect=5 1 26 8 DIRT STEELWALL
+Point=26 7 STEELWALL
+Line=25 10 25 12 SPACE
+Point=22 12 FIREFLYD
+Point=13 12 FIREFLYD
+Point=5 12 FIREFLYD
+Point=19 11 INBOX
+Line=19 5 19 7 DIRT
+Line=9 5 9 7 DIRT
+Line=8 7 8 8 WALL
+Line=18 7 18 8 WALL
+Point=18 6 BOULDER
+Point=8 6 BOULDER
+FillRect=27 1 37 5 STEELWALL
+Line=30 6 37 6 DIAMOND
+Point=29 6 STEELWALL
+Line=38 1 38 4 SPACE
+Point=38 2 FIREFLYD
+Line=2 13 2 20 WALL
+Line=1 12 2 12 BOULDER
+Point=1 13 OUTBOX
+Point=4 13 DIRT
+Line=1 14 1 15 DIAMOND
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave C
+DiamondValue=8 10
+DiamondsRequired=40 40 45 50 50
+CaveTime=200 190 180 170 160
+Colors=Orange LightRed White
+RandSeed=9 10 11 12 13
+RandomFill=BOULDER 250 DIAMOND 80 
+
+[objects]
+Rectangle=0 0 10 10 STEELWALL
+Rectangle=29 0 39 10 STEELWALL
+Rectangle=21 5 29 15 STEELWALL
+Rectangle=10 5 18 15 STEELWALL
+FillRect=10 1 29 4 DIRT
+Rectangle=19 5 20 15 SPACE
+FillRect=1 16 38 20 SPACE
+FillRect=1 11 9 15 SPACE
+FillRect=30 11 38 15 SPACE
+Line=29 6 29 9 DIRT
+Line=10 6 10 9 DIRT
+Line=13 15 15 15 DIRT
+Line=24 15 26 15 DIRT
+Line=19 5 20 5 STEELWALL
+Point=34 10 DIRT
+Point=5 10 DIRT
+Point=19 20 INBOX
+Point=20 20 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave D
+DiamondValue=3 5
+DiamondsRequired=90 90 90 90 90
+CaveTime=240 220 200 180 160
+Colors=Purple Orange Yellow
+RandSeed=14 21 15 16 29
+RandomFill=BOULDER 40 
+AmoebaTime=127
+
+[objects]
+Line=1 5 9 13 STEELWALL
+Line=5 1 13 9 STEELWALL
+Line=4 1 12 9 DIRT
+Line=3 1 11 9 DIRT
+Line=2 1 10 9 DIRT
+Line=1 1 9 9 DIRT
+Line=1 2 9 10 DIRT
+Line=1 3 9 11 DIRT
+Line=1 4 9 12 DIRT
+Line=26 9 34 1 STEELWALL
+Line=30 13 38 5 STEELWALL
+Line=27 9 35 1 DIRT
+Line=28 9 36 1 DIRT
+Line=29 9 37 1 DIRT
+Line=30 9 38 1 DIRT
+Line=30 10 38 2 DIRT
+Line=30 11 38 3 DIRT
+Line=30 12 38 4 DIRT
+Point=38 1 AMOEBA
+Point=1 1 AMOEBA
+Line=6 1 13 8 BUTTERFLYD
+Line=7 1 14 8 BUTTERFLYD
+Line=8 1 15 8 BUTTERFLYD
+Line=24 8 31 1 BUTTERFLYD
+Line=25 8 32 1 BUTTERFLYD
+Line=26 8 33 1 BUTTERFLYD
+Line=14 9 24 9 BOULDER
+FillRect=14 13 25 20 BOULDER
+Line=17 14 17 20 DIRT
+Line=22 14 22 20 DIRT
+Line=10 20 28 20 DIRT
+Point=17 14 INBOX
+Point=22 14 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Intermission 1
+Intermission=true
+DiamondValue=3 5
+DiamondsRequired=50 60 70 80 90
+CaveTime=20 20 20 20 20
+Colors=Orange Blue Yellow
+AmoebaTime=96
+
+[objects]
+FillRect=0 0 39 21 STEELWALL
+FillRect=0 0 19 11 STEELWALL DIRT
+Rectangle=1 1 18 10 BUTTERFLYD
+Rectangle=2 2 17 9 SPACE
+Rectangle=3 3 16 8 AMOEBA
+Rectangle=4 4 15 7 SPACE
+Line=5 5 14 5 WALL
+Line=5 6 14 6 SPACE
+Point=6 5 INBOX
+Point=13 5 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave E
+DiamondValue=20 35
+DiamondsRequired=5 5 5 5 5
+CaveTime=75 70 65 60 55
+Colors=Gray2 Purple White
+RandSeed=12 14 17 16 18
+RandomFill=SPACE 150 FIREFLYD 40 DIAMOND 20 
+AmoebaTime=128
+
+[objects]
+FillRect=2 2 12 9 STEELWALL
+FillRect=27 2 37 9 STEELWALL
+FillRect=27 12 37 19 STEELWALL
+FillRect=2 12 12 19 STEELWALL
+FillRect=14 6 25 16 STEELWALL
+Line=19 6 19 16 DIRT
+Line=14 11 25 11 DIRT
+Line=14 10 25 10 DIRT
+Line=20 6 20 16 DIRT
+Rectangle=19 10 20 11 AMOEBA
+Point=18 11 INBOX
+Point=2 19 OUTBOX
+Rectangle=1 1 38 20 SPACE
+Line=19 10 19 11 DIRT
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave F
+DiamondValue=5 10
+DiamondsRequired=75 75 75 75 75
+CaveTime=150 140 120 100 90
+Colors=Green LightBlue White
+RandSeed=48 51 52 57 58
+RandomFill=DIAMOND 120 FIREFLYD 20 
+
+[objects]
+FillRect=1 1 38 7 SPACE
+Line=2 8 2 17 WALL
+Line=4 11 4 20 WALL
+Line=6 8 6 17 WALL
+Line=8 11 8 20 WALL
+Line=10 8 10 17 WALL
+Line=12 11 12 20 WALL
+Line=14 8 14 17 WALL
+Line=16 11 16 20 WALL
+Line=18 8 18 17 WALL
+Line=20 11 20 20 WALL
+Line=22 8 22 17 WALL
+Line=24 11 24 20 WALL
+Line=26 8 26 17 WALL
+Line=28 11 28 20 WALL
+Line=30 8 30 17 WALL
+Line=32 11 32 20 WALL
+Line=34 8 34 17 WALL
+Line=36 11 36 20 WALL
+Line=38 8 38 17 WALL
+Point=1 1 INBOX
+Point=0 1 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave G
+DiamondValue=3 5
+DiamondsRequired=75 80 85 90 95
+CaveTime=100 100 100 100 100
+Colors=LightRed Red Yellow
+RandSeed=130 131 132 133 134
+RandomFill=SPACE 200 BUTTERFLYD 10 
+
+[objects]
+Line=1 1 38 1 BOULDER
+Line=1 10 38 10 DIRT
+Line=1 15 38 15 DIRT
+Line=3 10 8 15 SPACE
+Line=13 10 18 15 SPACE
+Line=21 10 26 15 SPACE
+Line=29 10 34 15 SPACE
+Line=33 10 28 15 SPACE
+Line=28 10 23 15 SPACE
+Line=17 10 12 15 SPACE
+Line=9 10 4 15 SPACE
+Point=12 18 INBOX
+Point=13 21 OUTBOX
+Rectangle=11 17 13 19 DIRT
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave H
+DiamondValue=10 25
+DiamondsRequired=30 30 30 30 30
+CaveTime=150 130 110 90 70
+Colors=Cyan Orange White
+
+[objects]
+FillRect=4 3 35 17 STEELWALL SPACE
+Rectangle=8 7 31 13 STEELWALL
+Rectangle=10 9 29 11 STEELWALL
+Rectangle=1 1 38 2 DIRT
+FillRect=1 18 38 20 DIRT
+FillRect=17 0 21 21 STEELWALL DIAMOND
+Point=16 3 FIREFLYD
+Point=22 3 FIREFLYD
+Point=22 13 FIREFLYD
+Point=16 13 FIREFLYD
+Point=16 9 FIREFLYD
+Point=22 9 FIREFLYD
+Line=19 1 19 18 STEELWALL
+FillRect=17 18 21 20 DIRT
+Line=18 17 20 17 STEELWALL
+Point=17 10 DIRT
+Point=21 10 DIRT
+Line=19 18 19 20 STEELWALL
+Point=19 19 OUTBOX
+Point=19 20 INBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Intermission 2
+Intermission=true
+DiamondValue=5 10
+DiamondsRequired=40 40 45 50 50
+CaveTime=25 25 25 25 25
+Colors=LightRed Gray1 Yellow
+
+[objects]
+FillRect=0 0 39 21 STEELWALL
+FillRect=0 0 19 11 STEELWALL DIRT
+FillRect=1 1 18 10 SPACE
+Line=1 3 18 3 BUTTERFLYD
+Line=1 1 18 1 BOULDER
+Line=2 5 7 10 WALL
+Line=9 5 9 10 WALL
+Line=16 5 11 10 WALL
+Line=16 8 18 10 WALL
+Line=12 5 14 7 WALL
+Line=6 5 4 7 WALL
+Line=2 9 1 10 WALL
+Line=10 7 8 7 WALL
+Point=9 8 OUTBOX
+Point=1 1 INBOX
+Point=1 2 BOULDER
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave I
+DiamondValue=3 5
+DiamondsRequired=90 90 90 90 90
+CaveTime=250 250 250 250 250
+Colors=Gray2 Gray1 Green
+AmoebaTime=56
+
+[objects]
+FillRect=1 1 38 20 STEELWALL
+Rectangle=1 1 38 3 BUTTERFLYD
+Rectangle=1 3 3 20 SPACE
+Rectangle=2 3 3 4 STEELWALL
+Rectangle=5 5 7 20 SPACE
+Rectangle=9 5 11 20 SPACE
+Rectangle=13 5 15 20 SPACE
+Rectangle=17 5 19 20 SPACE
+Rectangle=21 5 23 20 SPACE
+Point=4 5 SPACE
+Point=6 5 STEELWALL
+Line=8 5 20 5 SPACE
+Point=10 5 STEELWALL
+Point=14 5 STEELWALL
+Point=18 5 STEELWALL
+Point=22 5 STEELWALL
+Line=24 5 26 5 SPACE
+Point=26 6 SPACE
+Rectangle=25 7 27 9 SPACE
+Rectangle=25 11 27 13 SPACE
+Rectangle=25 15 27 17 SPACE
+Point=26 14 SPACE
+Point=26 10 DIRT
+Point=26 6 DIRT
+Point=26 14 DIRT
+Line=26 18 26 20 DIRT
+Line=27 20 29 20 DIRT
+FillRect=29 5 38 20 SPACE
+Point=38 5 INBOX
+Point=26 9 BUTTERFLYD
+Point=26 13 BUTTERFLYD
+Point=26 17 BUTTERFLYD
+Point=28 5 AMOEBA
+Point=2 3 OUTBOX
+Line=28 7 28 9 WALL
+Line=28 11 28 13 WALL
+Line=28 15 28 17 WALL
+Line=24 6 24 20 WALL
+Line=2 12 22 12 SPACE
+FillRect=25 18 28 20 DIRT
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave J
+DiamondValue=20 50
+DiamondsRequired=15 15 15 16 17
+CaveTime=150 140 130 120 110
+Colors=LightRed Purple Cyan
+MagicWallTime=16
+
+[objects]
+FillRect=1 1 38 20 SPACE
+Line=2 16 2 20 WALL
+Line=8 16 8 20 WALL
+Line=12 11 12 20 WALL
+Line=18 11 18 20 WALL
+Line=22 17 22 20 WALL
+Line=28 17 28 20 WALL
+Line=32 7 32 20 WALL
+Line=35 7 35 20 WALL
+Line=2 15 7 15 MAGICWALL
+Line=12 10 17 10 MAGICWALL
+Line=22 16 27 16 MAGICWALL
+Line=32 6 34 6 MAGICWALL
+Line=33 4 34 4 BOULDER
+Line=33 5 34 5 DIRT
+Point=36 6 DIRT
+Point=35 6 BOULDER
+Point=28 16 BOULDER
+Point=29 16 DIRT
+Line=23 15 27 15 DIRT
+Line=23 14 27 14 BOULDER
+Line=13 8 17 8 BOULDER
+Line=13 9 17 9 DIRT
+Point=19 10 DIRT
+Point=18 10 BOULDER
+Point=8 15 BOULDER
+Point=9 15 DIRT
+Line=3 14 7 14 DIRT
+Line=3 13 7 13 BOULDER
+Point=17 1 INBOX
+Point=18 1 OUTBOX
+Point=36 20 FIREFLYD
+Point=29 20 FIREFLYD
+Point=19 20 FIREFLYD
+Point=9 20 FIREFLYD
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave K
+DiamondValue=3 5
+DiamondsRequired=75 75 75 75 75
+CaveTime=250 235 210 195 180
+Colors=Purple Orange Yellow
+RandSeed=50 51 52 53 54
+RandomFill=BOULDER 160 DIAMOND 80 
+
+[objects]
+Rectangle=1 1 38 20 DIRT
+Rectangle=2 2 37 19 STEELWALL
+FillRect=8 1 10 19 STEELWALL DIRT
+FillRect=16 1 18 19 STEELWALL DIRT
+FillRect=24 1 26 19 STEELWALL DIRT
+FillRect=32 1 34 19 STEELWALL DIRT
+Rectangle=1 1 5 3 DIRT
+Rectangle=9 1 13 3 DIRT
+Rectangle=17 1 21 3 DIRT
+Rectangle=25 1 29 3 DIRT
+Rectangle=33 1 36 3 DIRT
+Point=5 17 INBOX
+Rectangle=4 16 6 18 DIRT
+Point=9 19 DIRT
+Point=17 19 DIRT
+Point=25 19 DIRT
+Point=33 19 DIRT
+Line=35 19 36 19 DIRT
+Line=28 19 30 19 DIRT
+Line=20 19 22 19 DIRT
+Line=12 19 14 19 DIRT
+Line=4 19 6 19 DIRT
+Point=36 2 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave L
+DiamondValue=10 15
+DiamondsRequired=35 35 35 35 35
+CaveTime=200 200 190 180 170
+Colors=LightRed Gray1 Yellow
+RandSeed=113 111 116 126 123
+RandomFill=BOULDER 250 DIAMOND 80 
+
+[objects]
+FillRect=6 1 38 6 SPACE
+Line=2 7 2 20 WALL
+Line=4 8 4 20 WALL
+Line=6 9 6 20 WALL
+Line=8 10 8 20 WALL
+Line=10 11 10 20 WALL
+Line=12 12 12 20 WALL
+Line=14 13 14 20 WALL
+Line=16 14 16 20 WALL
+Line=18 15 18 20 WALL
+Line=20 14 20 20 WALL
+Line=22 13 22 20 WALL
+Line=24 12 24 20 WALL
+Line=26 11 26 20 WALL
+Line=28 10 28 20 WALL
+Line=30 9 30 20 WALL
+Line=32 8 32 20 WALL
+Line=34 7 34 20 WALL
+FillRect=35 7 38 20 SPACE
+Line=3 7 33 7 SPACE
+Line=5 8 31 8 SPACE
+Line=7 9 29 9 SPACE
+Line=9 10 27 10 SPACE
+Line=11 11 25 11 SPACE
+Line=13 12 23 12 SPACE
+Line=15 13 21 13 SPACE
+Line=17 14 19 14 SPACE
+Line=2 20 33 20 DIRT
+Line=2 18 33 18 DIRT
+Line=2 16 33 16 DIRT
+Point=17 21 INBOX
+Point=35 21 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Intermission 3
+Intermission=true
+DiamondValue=5 15
+DiamondsRequired=50 55 60 65 70
+CaveTime=40 35 30 25 20
+Colors=LightRed Brown White
+
+[objects]
+FillRect=0 0 39 21 STEELWALL
+FillRect=0 0 19 11 STEELWALL DIRT
+FillRect=1 1 18 10 STEELWALL
+Rectangle=1 1 17 9 DIAMOND
+Rectangle=3 3 15 7 DIAMOND
+Line=2 5 16 5 DIAMOND
+Line=9 1 9 9 DIAMOND
+Point=1 1 INBOX
+Point=3 3 FIREFLYD
+Point=15 3 FIREFLYD
+Point=17 1 FIREFLYD
+Point=9 1 FIREFLYD
+Point=10 4 OUTBOX
+Point=2 2 WALL
+Point=8 2 WALL
+Point=10 2 WALL
+Point=16 2 WALL
+Point=14 4 WALL
+Point=14 6 WALL
+Point=16 6 WALL
+Point=10 6 WALL
+Point=8 6 WALL
+Point=2 6 WALL
+Point=4 6 WALL
+Point=2 4 WALL
+Point=8 8 WALL
+Point=10 8 WALL
+Point=10 4 STEELWALL
+Point=14 8 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave M
+DiamondValue=3 5
+DiamondsRequired=90 90 90 90 90
+CaveTime=50 45 40 35 30
+Colors=Brown Gray1 Green
+RandSeed=178 179 187 188 189
+RandomFill=DIAMOND 200 STEELWALL 100 WALL 40 
+
+[objects]
+Point=1 2 INBOX
+Point=39 20 OUTBOX
+Line=38 1 38 20 DIRT
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave N
+DiamondValue=10 15
+DiamondsRequired=30 30 30 35 35
+CaveTime=150 130 110 100 90
+Colors=Gray2 Red White
+
+[objects]
+FillRect=1 1 38 20 SPACE
+FillRect=4 4 10 10 WALL DIAMOND
+FillRect=29 4 35 10 WALL DIAMOND
+Line=11 4 13 4 WALL
+Line=10 5 12 5 WALL
+Line=10 6 11 6 WALL
+Line=10 8 11 8 WALL
+Line=11 9 12 9 WALL
+Line=11 10 13 10 WALL
+Line=8 5 8 9 DIRT
+Line=9 5 9 9 SPACE
+Point=9 7 FIREFLYD
+Point=12 6 BOULDER
+Point=12 7 DIRT
+Point=9 3 FIREFLYD
+Point=30 2 FIREFLYD
+Line=27 4 27 10 WALL
+Point=28 5 DIRT
+Point=28 4 BOULDER
+Line=27 3 35 3 WALL
+Point=27 6 DIRT
+Point=18 7 INBOX
+Line=16 10 18 12 BOULDER
+Rectangle=17 11 23 18 WALL
+Rectangle=19 13 21 16 WALL
+Point=20 14 OUTBOX
+Point=18 13 DIRT
+Point=16 11 DIRT
+Point=16 17 FIREFLYD
+Point=22 15 FIREFLYD
+Line=22 17 23 17 BOULDER
+Point=24 17 DIRT
+Line=30 5 34 5 SPACE
+Point=31 5 FIREFLYD
+Rectangle=17 1 21 8 WALL
+Line=19 2 19 7 WALL
+Point=20 3 FIREFLYD
+Point=19 7 DIRT
+Point=18 2 BOULDER
+Line=18 3 19 4 DIRT
+Line=10 8 11 9 DIRT
+Point=19 13 DIRT
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave O
+DiamondValue=95
+DiamondsRequired=1 1 1 1 1
+CaveTime=150 130 110 90 70
+Colors=LightRed Green White
+
+[objects]
+FillRect=1 1 38 20 STEELWALL
+Rectangle=1 1 5 20 SPACE
+Rectangle=9 1 13 20 SPACE
+Rectangle=17 1 21 20 SPACE
+Rectangle=25 1 29 20 SPACE
+Rectangle=33 1 37 20 SPACE
+Line=1 10 38 10 SPACE
+Point=0 10 INBOX
+Point=1 10 DIRT
+Line=3 3 3 18 SPACE
+Line=11 4 11 17 SPACE
+Line=19 5 19 16 SPACE
+Line=27 6 27 15 SPACE
+Line=35 7 35 14 SPACE
+Point=38 10 DIAMOND
+Point=37 20 FIREFLYD
+Point=29 17 FIREFLYD
+Point=21 14 FIREFLYD
+Point=13 11 FIREFLYD
+Point=5 8 FIREFLYD
+Point=1 20 FIREFLYD
+Point=9 17 FIREFLYD
+Point=17 14 FIREFLYD
+Point=25 11 FIREFLYD
+Point=33 8 FIREFLYD
+Point=8 1 OUTBOX
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Cave P
+DiamondValue=3 5
+DiamondsRequired=50 60 70 80 90
+CaveTime=250 250 250 250 250
+Colors=Red Orange Cyan
+RandSeed=21 24 15 18 29
+RandomFill=DIAMOND 200 BOULDER 40 FIREFLYD 5 
+
+[objects]
+FillRect=1 1 38 10 SPACE
+Line=1 8 37 8 WALL
+Line=1 9 37 9 BOULDER
+Line=1 10 37 10 DIRT
+Line=37 9 37 19 WALL
+Line=33 9 33 20 WALL
+Line=29 9 29 20 WALL
+Line=25 9 25 20 WALL
+Line=21 9 21 20 WALL
+Line=17 9 17 20 WALL
+Line=13 9 13 20 WALL
+Line=9 9 9 20 WALL
+Line=5 9 5 20 WALL
+Point=1 20 OUTBOX
+Line=37 16 37 19 DIRT
+Point=37 20 INBOX
+Point=2 7 FIREFLYD
+Point=8 7 FIREFLYD
+Point=14 7 FIREFLYD
+Point=20 7 FIREFLYD
+Point=26 7 FIREFLYD
+Point=32 7 FIREFLYD
+Point=29 20 SPACE
+Point=21 20 SPACE
+Point=13 20 SPACE
+Point=9 20 SPACE
+Point=17 20 SPACE
+Point=25 20 SPACE
+Line=5 2 5 7 WALL
+Line=9 2 9 7 WALL
+Line=13 2 13 7 WALL
+Line=17 2 17 7 WALL
+Line=21 2 21 7 WALL
+Line=25 2 25 7 WALL
+Line=29 2 29 7 WALL
+Line=33 2 33 7 WALL
+Point=23 7 FIREFLYD
+Point=11 7 FIREFLYD
+Point=5 9 DIRT
+Point=13 10 BOULDER
+Line=3 20 10 20 DIAMOND
+[/objects]
+
+[/cave]
+
+[cave]
+Name=Intermission 4
+Intermission=true
+DiamondValue=20 30
+DiamondsRequired=15 15 20 25 25
+CaveTime=40 40 40 40 40
+Colors=Brown Purple White
+
+[objects]
+FillRect=0 0 39 21 STEELWALL
+FillRect=0 0 19 11 STEELWALL DIRT
+Line=17 1 17 10 WALL
+Line=15 1 15 10 WALL
+Line=13 1 13 10 WALL
+Point=12 1 BOULDER
+Point=14 1 BOULDER
+Point=16 1 BOULDER
+Point=18 10 OUTBOX
+Point=1 1 INBOX
+Line=4 4 6 2 BOULDER
+Line=4 3 6 1 BUTTERFLYD
+[/objects]
+
+[/cave]
+[/game]
+[/BDCFF]

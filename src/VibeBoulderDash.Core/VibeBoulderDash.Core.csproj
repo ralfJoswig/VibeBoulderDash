@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="VibeBoulderDash.Core.Tests" />
+    <InternalsVisibleTo Include="VibeBoulderDash.Game" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Caves\BoulderDash01.bd" LogicalName="VibeBoulderDash.Core.Caves.BoulderDash01.bd" />
+    <EmbeddedResource Include="Caves\BoulderDash02.bd" LogicalName="VibeBoulderDash.Core.Caves.BoulderDash02.bd" />
+    <EmbeddedResource Include="Caves\BoulderDash03.bd" LogicalName="VibeBoulderDash.Core.Caves.BoulderDash03.bd" />
+  </ItemGroup>
+
+</Project>

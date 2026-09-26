@@ -1,0 +1,808 @@
+; Converted using Tim Stridmann's X2BDCFF converter.
+; Last modified: 3 March 2007
+
+[BDCFF]
+[game]
+Name=Deluxe Dash 1
+Author=Marek Roth
+Date=
+WWW=http://www.gratissaugen.de/erbsen/
+Charset=Original
+Fontset=Original
+Levels=1
+Caves=20
+Remark=Different effects are included.
+
+[cave]
+Name=Cave 1
+CaveDelay=7
+CaveTime=150
+DiamondsRequired=99
+DiamondValue=2 4
+SlimePermeability=0.500
+MagicWallTime=1
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Red Blue Green
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WxdddddddddddxX....wrrrrrrrw...........W
+WxdddddddddddxW....wrrrrrrrwdddddddddddW
+WxdddddddddddxW....wrrrrrrrwdddddddddddW
+WxdddddddddddxW....wrrrrrrrwdddddddddddW
+WxdddddddddddxW.....wrrrrrw..WWWWWWWx.xW
+WxdddddddddddxW......wrrrw...W.....Wx.xW
+WWWWWWW.WWWWWWWW......wrwWWW.WW.WW.WW.WW
+WWWWWWW........W......xr     Wq  W.W   W
+WWWWWWWMWWWWWWPW......WsW.WWWW W W.WqW W
+W.rrrrrr.......WWWWWW.W W.WWWW   W.W   W
+W.rrrrrr.......W....W.WMW.WWWWW.WW.WW.WW
+W.rrrrrr.......W.xW.W.....WWWWq  W.Wq  W
+W.rrrrrr.......W.qW.WWWWWWWWWW W W.W W W
+W.rrrrrr.......W.WW..........W   W.W   W
+W.rrrrrr.......W...WWWWWWWWW.WW.WW.WW.WW
+W.rrrrrr.......WWW.........W.Wq  W.W q W
+W.rrrrrr.......W...r.r.r.r.W.W W W.W W W
+W.rrrrrr.......W.W WWWWWWWWW.W   W.W   W
+W.WWWWWWWFWWWWWW.W WWWWWWWWW.WW.WW.WW.WW
+W................W WWWWWWWWW.....W.....W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 2
+CaveDelay=7
+CaveTime=150
+DiamondsRequired=99
+DiamondValue=2 4
+SlimePermeability=0.250
+MagicWallTime=1
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Blue White Purple
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wdwwrwwwwwwwwwwww..wrrrrrrrw...........W
+Wdwd.dddddddxwwww..wrrrrrrrwdddddddddddW
+Wdwdwwwdwwwwwwxqw..wrrrrrrrwdddddddddddW
+Wdwdwwwdwwwwwwwqw..wrrrrrrrwdddddddddddW
+WdwddddPdddddddqw...wrrrrrw..WWWWWWWx.xW
+Wdxxxxxxxxxxxxxxw....wrrrw...W.....Wx.xW
+WdddddddWWWWWWWWw.....wrwWWW.WW.WW.Wr.WW
+WWWWWWWddddddddWw.....xr     Wq  W.Wr.qW
+WWWWWWWWWWWWWWdWX.....WsW.WWWW W W.WrqqW
+W...qrrwdddddddWWWWWW.W W.WWWW   W.Wr..W
+W...r.rwr.....dW....W.WMW.WWWWW.WW.Wr..W
+W...rr.w......dW..W.W.....WWWWq  W.W.r.W
+W...r.rw......dW.qW.WWWWWWWWWW W W.W.w.W
+W....rrw......dW.WW..........W   W.W.W.W
+W...rrrw......dW...WWWWWWWWr.WW.Wr.W.W.W
+W....rrx......dWWW.........w.Wq  w.W.W.W
+W...r.rx.....qdW...r.r.r.r.W.W W W.W.W.W
+W...rr.wdddddddW.W WWWWWWWWW.W   W.W.W.W
+W.WWWWWWWFWWWWWW.W WWWWWWWWW.WW.WW.W.W.W
+W................W WWWWWWWWW.....W.....W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 3
+CaveDelay=8
+CaveTime=202
+DiamondsRequired=50
+DiamondValue=5
+SlimePermeability=1.000
+MagicWallTime=10
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black White Blue Green
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wdrq   wdd... wrr.........          q  W
+Www.wwww.....qwrr.......rW ddddddddddd W
+Wwwdw.ww......wrr.......rW WWWWWWWWWWW W
+Www.wPxw.xxxx.wrr.......rW             W
+Www.wx.........rr....WWWrW          q  W
+Www.w....r...........WdWrW ddddddddddd W
+Www.w....MwwwwwwwMMMMWdWrW WWWWWWWWWWW W
+Www.w....wwwwwwwww.wrWdWrW             W
+Www.w....wwddddddxPwrWdWWW          q  W
+Www.wwwwwww.xxxxxxxwrWdWrW ddddddddddd W
+Www.w.....w.........rWdWrW WWWWWWWWWWW W
+Xrw.w.w.x.wwwwwwwwwwrWdWr.             W
+W.w.w.w.....x....rrrrddWrWWWWWWWWWWWWWWW
+W.w.w.www.w......rrrwx.Wr..WxP..WWWWWWqW
+W.w.w.w.w.w......rrrww.W...WWWWWWWWWWW.W
+W.w.w.x.w.w......rrrww.WsW.............W
+W.w.w.wPw.w......rrrww.W.WWWWWWWWWWWWW..
+W..Pw.w.w.w......rrrww.W...............W
+WFxdwww.w.w......rrrww.WWWWWWWWWWWWWWW.W
+Wwwwd...w........rrrww.................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 4
+CaveDelay=7
+CaveTime=255
+DiamondsRequired=10
+DiamondValue=50 0
+SlimePermeability=0.500
+MagicWallTime=1
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Effect=HEXPANDING_WALL STEEL_HEXPANDING_WALL
+Colors=Black Black Purple Gray1 White
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W.........................W.............
+W.W.W.W.W.W.WWWWWWWWWWWWW.x.W...........
+W...........WW..rrrrr ..W...W........r..
+W.W.W.W.W.W.WW.Wwrrrrwx.wwwwwwwww....c..
+W...........WW...rrrwq .wrrrrrrrw....r..
+W.W.W.W.W.W.WWWx.wrwWWW.wrrrrrrrw.......
+W...........WWrW.xr  ...wrrrrrrrw... . .
+W.H.W.W.W.W.WWrW.WsW.WWWwrrrrrrrw...   .
+W...........WWrW.W W....wrrrrrrdw...   .
+W.W.W.W.W.W.WWrW.WMWWWW.Wwrrrrrw..xWMMMW
+W...........WWrW.W......WWwrrrw..WrWWWWW
+WWWWWWWWWWWWWWrW.W.xWWWWWWWxrw...W..WWWW
+W    q    WWWWrW.W    q    .rW...w.WqWWW
+W WWWWWWW WWWWsx.W WWWWWWW WrW...W.W.WWW
+W WWWWWWW WWW  W.W WWWWWWW WrW...W.....W
+W WWWWWWW WW   W.W WWWWWWW WrWWWWWWW.W.W
+W WWWWWWW W    W.W WWWWWWW Wr..x...W.W.W
+W  WWWWWW W    W.W  WWWWWW WsW.x.W.W.W.W
+W  WWWWWW W FWWW.W  WWWWWW W W.x.W.WWW.W
+W    P    .......W         WMW...W.....W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 5
+Intermission=true
+CaveDelay=6
+CaveTime=150
+DiamondsRequired=8
+DiamondValue=50 1
+SlimePermeability=0.500
+AmoebaTime=999
+AmoebaThreshold=0.170
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Green Orange White
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wawr.W..qX...r.....WWWWWWW.............W
+Waw..W.WWqWWWsWWWW.WW....W.............W
+Waw.....WWW.. ...W.WW.WW.W.............W
+Waw..........q...W.WW.WW.W.............W
+Waw..........w...W.WW.WW.W.............W
+Waw......WWWWPWWWW.WW.WW.W.............W
+Waw......W...W..rW.WW.WW.W.............W
+Waw...q.qW.......W.WW.WW.WWWWWWWWWWWW..W
+Waw......W......cW.qW.WW............W..W
+Waw......W.......w.xW.WWWWWWWWWWWWW.W..W
+WWWWWWWW.x.WWWWWWWWWW.........W.....W..W
+W......W.W.W.........WWWWWWWW.W.WWWWW..W
+W......W.W.WWWWW............W.W.W......W
+W.....WW.Wd....WWWWWWWWWWWWWW.W.W......W
+W.....WW.WWWWW................W.W......W
+W.....WW.WWWWWWWWWWWWWWWWWWWWWW.W......W
+W.....WW.........WWW..........W.W......W
+W.....WWWWWWWWWW.W.W..........W.W......W
+W..............W.WWWWWWWWWWWWWW.W......W
+W..............W................W......W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 6
+CaveDelay=6
+CaveTime=255
+DiamondsRequired=34
+DiamondValue=8 25
+SlimePermeability=0.500
+MagicWallTime=999
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Blue White Purple
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W...W r.........wwwrwr..q..rw.......rqqW
+W.W.W..W.W.WW...ww..w.......w....WqWsWqq
+W.W......W.WW...www.w.......w......W.WWq
+W..WW....W.WW...w.w.w.......w......W..Wq
+W..qWWwWWW.WW...w.w.w.......w....WWW.WWq
+W..WW r....x....w.w.w.wwxxx.w....Wdw.Wqq
+WW WWsWWWWWWW.W.w.w...wwwrw.WWWWWWWW.WqW
+WWWPW ...q....W.w.wwwMww..w.Wq.......WqW
+XWdrW.........W.w......xwqw.W........WqW
+r rrW.........W.ww.x.x.ww w.W.......wWqW
+s WrWr........W.ww......w.w.W......wwWqq
+qWWrWrWWW.....W.wq wwww.w.w.WWW.x.sWWWqx
+WWrrWsWqWWWWWWW.ww....w.w.wwwww......WWW
+WWrr......W...W.wwwww.w.w..dddwwwwMw..WW
+WWWsW....rW.x.W.....w.w.x.xdwddddddww..W
+Wdd w.....w.w.w.w   w.w.w.wdwwwwwxdddw.W
+WdW w.....w.w.w.w   w.w.w.wddddddwwwdw.W
+WdW w.....w.w.w.w   w.w.w.wwwwwwdddddw.W
+Wd  w.....w.w.w.wx. w.w.w.w....wwwwww..W
+WW  w.....w.w...............ww........MW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 7
+CaveDelay=8
+CaveTime=255
+DiamondsRequired=60
+DiamondValue=5
+SlimePermeability=1.000
+MagicWallTime=1
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Effect=HEXPANDING_WALL STEEL_HEXPANDING_WALL
+Colors=Black Black Blue Red Green
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWW.......W........rwdddxdddW....qW
+WWWWWWrW.WWWWr.W......q.qw.WdWdW.W.WWW W
+WWWWWWrW.WWWx..W.........w.WWWWW.W.WdW W
+Wx..  r dxWxW.WWWW.......w.W.....W.WdW W
+W..W.Ws.WWrWW....W.......w.W.WWWWW.WdW W
+W.WW....W..WWHWW.........w.W.W.....WdW W
+W.WWWd WWX.W   WW....W.x...W.W.xWWWWdW W
+W.WWWWWc...W WqdW...r....w.W.W.W....dW W
+W.WWWrW ...WdxrWWx.W.x.x.x.W.W.W.WrxWW W
+W.WWWcW ...xdx..W..............W.w.....W
+W.WWWrW.xx.WWW.WW.MWW.WWWWdxdW.W.w.....W
+W.W.................W.WrWWdWdW.WWW.....W
+W.W.xWWWWW.WWWsW.WM.W.W..WdddW.WrWWWWx.W
+W.W....r.W.W.H H.W..W.Ws..WWWW.x.......W
+W.Wwwww..W.W.HcH.WM.W.WcW.W......WWWWWWW
+W.Wdddw..W.W.HHHPW..W.W W.W......W.....W
+W.Wdddw....W.xWx.WM.W.rWW.W.....qx.....W
+W.WdddwWW WW.W...W..WW...........W.....W
+W.WWWWWWWWWW.W.WWWMWWWWWWWWWWWWWWW.x.x.W
+W...........dWd........................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 8
+CaveDelay=0
+CaveTime=25
+DiamondsRequired=10
+DiamondValue=10 0
+MagicWallTime=2
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Orange Brown Cyan
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WPWPW..................................W
+W.W.W..................................W
+W.W.W..................................W
+W.W.W..................................W
+W.W.W..................................W
+W.W.W..................................W
+W.W.WWWWWWWWWWWWWWWWWWWWWrWWWWWWWWWWWWWW
+W.W.......................xW.rrrrrrrrrrW
+W.WWWWWWWWWWWWWWWWWWWWWrW.WW...........W
+W.......................x.WW.MMMMMMMMMMW
+WWWWWWWWWWWWWWWWWWWWWWW.W..............W
+W....................WW.WWWWWWWWWWWWWWWW
+W....................W.................W
+W....................W.................W
+W....................W...............X.W
+W....................W.................W
+W....................W.................W
+W....................W.................W
+W....................W.................W
+W....................W.................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 9
+CaveDelay=10
+CaveTime=227
+DiamondsRequired=5
+DiamondValue=83 18
+SlimePermeability=1.000
+MagicWallTime=1
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black LightBlue Blue White
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWrWWWWW
+WWWWWWWWWWWWWWWWWWWWWW...q.w...WWW
+WWWWWWWWWWWWWWWWWWWWWW.W...w.WdWWW
+WWWWWWWWWWWWW...W..........w.WWWWW
+WWWWWWWWWWWWW.r...wwwwqxxqxW.WWWWW
+WWWWWWWWWWWWW..Wwww........W.....W
+WWWWWWWWWWWWWWsW.....xwwww.WW.WW.W
+WWWWWWWWWWWWWwqW.w...wwwww.r  WW.W
+WWWWWWWWWWW..w W.w.r.......WW WW.W
+WWWWWWWWWWW.Wwww.w...P.ddd WW WW.W
+WWWWWWWWWWW.WWWWwwwwwwwwwMwWWsww.W
+WWWWWWWWWWW.WWrw.....w......W .w.W
+WWWWWWWWWWW....w.w.x.wwwwww.W....W
+WWWWWWWWWWW.WW.w.w..........W...WW
+WWWWWWWWWWW....w.wwwwwww.x.wWww.WW
+WWWWWWWWWWW.wwww......ww......w.WW
+WWWWWWWWWWW.wrwwxxrxxxxwwwwwwww.WW
+WWWWWWWWWWW.w....w...W..........WW
+WWWWWWWWWWX.w....w.....WWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 10
+Intermission=true
+CaveDelay=0
+CaveTime=23
+DiamondsRequired=99
+DiamondValue=0 1
+Effect=BOUNCING_BOULDER EXPLOSION1D
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Purple Purple Purple
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+WrrrrrrrrrrrrrrrrrrW...................W
+P..................W...................W
+XXXXXXXXXXXXXXXXXXXXX...........rrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrr...............W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 11
+CaveDelay=6
+CaveTime=150
+DiamondsRequired=36
+DiamondValue=10
+SlimePermeability=0.500
+MagicWallTime=999
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black LightGreen LightBlue Blue
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrW
+WssssssssssssssssssssssssssssssssssssssW
+W                                      W
+WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW
+W                                      X
+W                                      W
+W                                      W
+W                                      W
+W                                      W
+W                                      W
+W                                      W
+W MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW
+W                                      W
+W                                      W
+WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM W
+W                                      W
+W                                      W
+W                                      W
+W                                      W
+W                 P                    W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 12
+CaveDelay=7
+CaveTime=143
+DiamondsRequired=99
+DiamondValue=0 3
+SlimePermeability=1.000
+AmoebaTime=96
+MagicWallTime=1
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Green LightGreen White
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWddddddaaaWWWWaaaaaaaWaaaaaaaaaWWWWWWW
+WWWdWWWWWWWaWWWWaWWWWWaWaWWWWWWWddWWWWWW
+WWWdWWWWWWWaaaaaaWWWWWaWaaaaaaWWWddWWWWW
+WWWdWWWWWWWWWWWWWWWWWWaWWWWWWaWWWWddWWWW
+WWWaWWWWWWWWWqqqqqqWWWaaaaaWWaWWWWWdddWW
+WWWaWWWWWWWWqqwwwwwqWWWWWWaaaaWWWWWWWdWW
+WWWaWWWWqqqqqw     rWWWWWWWWWWaaaaaaddWW
+WWWaWWWWwwwww  WWWWsWWWWWWWWWWaWWWWWWWWW
+WWWaWWaa.     W.....WWWWWWWWWWaaaaaWWWWW
+WWWaWWaWwwwww W.WWWMWWWWWWWWWWWWWWaddWWW
+WddaWWaWWWWWW W.....aaaaWWWaaaaaaWWWddWW
+WdWWWWaWWWWWW XWWWxPWWWaWWWaWWWWaaWWWddW
+WdWWWWaWWWWWW WaaaWWWWWaWWWaWWWWWaaWWWdd
+WdWWWWaWWWW   WaWaWWaaaaWWWaWWWWWWadWWWd
+WdWWWWdWWWWFW WaWaWWaWWWWWWaaaaWWWWddWWd
+WdWWWWaWWWWWWWWaWaWWaWWWWWWWWWaWWWWWddWd
+WdWWWWaaaaaaaaaaWaWaaWWWWWWWWWaWWWWWWddd
+WdWWWWWWWWWWWWWWWaWaWWWWWWWWWWaWWWWWWWWW
+WdWWWWWWWWWWWWWWWaWaWWWWWWWWWWaWWWWWWWWW
+WddddaaaaaaaaaaaaaWaaaaaaaaaaaaWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 13
+CaveDelay=10
+CaveTime=255
+DiamondsRequired=66
+DiamondValue=5 0
+SlimePermeability=1.000
+AmoebaTime=999
+MagicWallTime=999
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Purple Yellow Blue
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Wx....Wr..rw.ddddw...w.....WWWWddddWrqdW
+Ww.wW.Ww...w.wwwdw.w.w.www.WrcWdxxdWsssW
+W q W......w.xdwww.w...w.....WW..x.W...W
+W W W.WWMwww.......wxwwx.WWWMWWW.x.W...W
+W   W..Wc WW.wwwwwwwdw...W.      c wqW.W
+Ww.wW...M  W.w.........WWW.        w W.W
+W q W.W..W W.w.WWWWWWWWd.x.W.wxxxxxxrx.W
+W W W qW...W.w.W       W. .x..w...x..w.W
+W   WWWW.r.W.w.W  qqq PW qWdw.w.W....w.W
+Ww.wWdddM..W.w.W.xxaaxdW  W.W...WWWW.w.W
+W q Wdddw..W.w.W.xd.dWWWW.W.WWWWW dr.w.W
+W W Wdddw..W.w.W.xx....xd.W..r..W Ws.w.W
+W   WWWWWWWW.w.W.cW.WW.x.Wr.WsW.W WW.wwW
+Wx.xW......W.w.W. W.FW.x.Ww.WrW.WqW..wwW
+W.....WWWx.W.w.W. W.rW.x.Wwr..W.WWW.rwwW
+WWWWWW.....W.w.W. ..rW....WsWMWrWr...wXW
+Wdq    WWWWW.w.xWWWWWW.xW...Wdw.w....wXW
+W......W.d.W.w....wr.W..x.WMWdw w . .wXW
+W.WWWWWW.x.W.wwww.w...x.x.W.Wdwqwq.q.wXW
+W........w........w...........w.w...wwXW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 14
+CaveDelay=6
+CaveTime=30
+DiamondsRequired=6
+DiamondValue=0 1
+AmoebaTime=7
+AmoebaThreshold=0.010
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Orange Purple Cyan
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWWW...............WW
+WWWWWWWWWWWWWWWWWWWWW...............WW
+WWWWWWWWWWWWWWWWWWWWaP..............cW
+WWWWWWWWWWWWWWWWWWWWW...............XW
+WWWWWWWWWWWWWWWWWWWWW...............WW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 15
+Intermission=true
+CaveDelay=7
+CaveTime=112
+DiamondsRequired=82
+DiamondValue=1 0
+SlimePermeability=1.000
+MagicWallTime=999
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND AMOEBA
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black LightBlue Red Cyan
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP..rWrW  WW..W...rW...................W
+W....w.W qWW..W....Wq.........q........W
+W....WMW..WW..W..WsWq...q..............W
+W.............W..W W........q........q.W
+W....WWWWWWWWW..WrqW...................W
+W....WWW.......WXsWW...................W
+W......W.WWW.WWWW..W.............q.....W
+W......Wc..W.......W....q.............qW
+W......WWx.W.x.x.M.x...............q...W
+W..........W.......W...........q.....q.W
+WWWWWWWWWWWWWWWWWWWW........q.....q....W
+W........q.......q.....q.......q.......W
+W......................q...............W
+W..............q...q...................W
+W.........................qq...........W
+W........q.........q.............q.....W
+W...q........q...........q.............W
+W.........q.................q......qq..W
+W.........q............................W
+Wq......q.....q......qq.....q.........qW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 16
+CaveDelay=7
+CaveTime=255
+DiamondsRequired=99
+DiamondValue=9 0
+SlimePermeability=1.000
+AmoebaTime=1
+MagicWallTime=999
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Yellow Green Cyan
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W.........qdq......wrxxrxxrxxrxxrxxrrxrW
+W.WWdWWrWWqWqW.....w...................W
+W.rWdWW.WWqqqW.....wswwswwswwswwswwsW.MW
+W.wWdW...WWdWW.x...wqwwqwwqwwqwwqwwcW..W
+W.wWWW.xxWWPW......w ww ww ww ww ww W.MW
+W........WW.W......w ww ww ww ww ww W..W
+WWWWWWWW.WW.WXxxxxxx.xxxxxxxxxxxxMxxr..W
+WWW......WW.W........... ...............
+xWMdxdMWMWM.M.M.x.x.xcxdxdx.x.x.x.w MxxW
+W.a..a..aWF.r W.W.....WdddW.W.W...wMxxWW
+Ww.......WWWW W.WdWWW WWWWW.W..r .....WW
+Www..a..a..aW.W.WdddW.......WWWrxWWWW.WW
+WWWWWWWWWWWWW.W.WWWWWWWWWWW.....wW..w..W
+Waarddddd  qWdddddddddddddWW....wW..w..W
+WaWqWWWWWWWWW.W.x.WWWWWWWWWWW...wWa.w..W
+WaWrw.x...FwWMW...wr...q.q.qW...wW..w..W
+WaWqw.d... wr.....w.........W...wWa.w..W
+WaWrwr.... w......w.........W...wW..w..W
+WaW.w..... w......w.....W.x.W.www.WWx..W
+WaaWw..... w......w.....W.....wqw......W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 17
+CaveDelay=8
+CaveTime=234
+DiamondsRequired=84
+DiamondValue=10
+SlimePermeability=1.000
+AmoebaTime=1
+MagicWallTime=2
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black Orange Brown Purple
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Pr ..r..r..r..r..r..............r....r.W
+W...............................r......W
+Wsssssssssssss.............. ..........W
+Wwqwwqwwqwwqwsssxxxsx.WWsssssssxx.xsss.W
+Ww ww ww ww wwqwwqw.. r.....s  qs....s.W
+WwwwWWWWWWHHHw ww wMWsW.x.x.sss......s.W
+W........WW.xWWWWXW.......M  ........s.W
+Wac.ac.acW......WWWMMMx.WdMsssssssss.s.W
+W........W.WWWW.W.w.....WaM........s.s W
+W......d.W....W.W.w.....WaM......sqs.sqW
+WacaacWWrWWWW.W...w.....W.WW.x.x.xss.ssW
+W.....W...WrW.WWWWW.s.x.WaWWdsdsdsdsdsdW
+WWWWWWW.WWW...W.....W.W.WdrWdsdsdsdsdsdW
+WssrsxW.....WWW.WWWWW...W..W.s.s.s.s.s.W
+Ws..sxWWWWWW....qW....W.WWsW.s.s.s.s.s.W
+Wss.s........x..W..xWW...WcW.s.s.s.s.s.W
+Wxs.s.ssssssWWWWW.W WW.W.W W.s.s.s.s.s.W
+Wss.s.s.ddddddddddW ...W.HHH...........W
+Wss.ssx.WWWWWWWWWWW ...qWWWWW.xxxxxxxx.W
+Wss................ ...dWWWWW.dddddddd.W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 18
+CaveDelay=7
+CaveTime=255
+DiamondsRequired=77
+DiamondValue=9 0
+SlimePermeability=0.125
+AmoebaTime=1
+MagicWallTime=999
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER EXPLOSION1S
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION1S
+Colors=Black Black Brown Green Red
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W..rwwwc.......r.r....r..x.d.W....WqPWqW
+Wrd.wdw..rrrr.. Wr.rr.rW...W......WWWW.W
+W r.w w..rdr...Wdr.rw.rWrWWWWWWW.....W.W
+WWr.w w..rrr...Wdr.r.r ........W.....WPW
+W  .w w..   ...Wdr.r. ww.......WWWWW.WWW
+Wdw.www........Wdr.r...w.rrrc  .r.dW...W
+Wdw............Wdr.r.x.ww  rWx.WsWdWW..W
+WdWxxxxxdxPxxcWWdr.r....... WW...Wd.W..W
+Wdrrrrrrrrrrrrrr r.rWWWWWW.WrWWW.WW.W..W
+Wd              M . .d...W.W...W.WW.WW.W
+F .xWWF............r.W.x.W.WMW.W.qW..W.W
+WM.d.WW.W.xWWWWWWWWWWW.......W.W.xx.WW.W
+W..x.xW.W.WWWWW.....WWWWWWWWWW.........W
+W.WW.WW.W.WWWrW.WW..WW.........xx.wqwqwW
+W.......W.WWW...Ww..wr.wcwcwcwwww.dqaqaW
+WXWWWWWWW.WWWMWWWwr.w..W . . ...rwaqaqaW
+WWWWWWWWW.WWWcW..w..wddW.... ....waqaqaW
+W.........WWW W..w..wd.W.........waaaaaW
+W.WWWWWWWWWWWWM..w..wdd..W.......wa.aaqW
+W..............W.sssssssssssssssswaaaaaW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 19
+CaveDelay=8
+CaveTime=255
+DiamondsRequired=61
+DiamondValue=7 0
+SlimePermeability=1.000
+AmoebaTime=999
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S EXPLOSION4S
+Colors=Black Black LightBlue Blue Cyan
+
+[map]
+WWWWWWWWWWWWWdWWdWWdWWdWWWWWWWWWWWWWWWWW
+Wq    ..WWW.Wddws.ws.ws.WWWrWa.........W
+W.......WWW.WWdw..w..w..W....d.c..c..c.W
+W.xxxxx.W....Wdw .w .w..W.WsWa.a..a..a.W
+W    qW.W.W..Wdwq.wq.w..W.WqWaaaWWWWWWWW
+W.....r.W.W..WWwwwwwww.qW.W WWWWW......W
+Wxxxx.W.W.WW....W......WW.WWw..Wx.WWWW.W
+Wq    W....r.Wx.W....WWWr.Wr.W....W....W
+W.....Wrxww...W.W.WWWW.w..w..WWWWWWdxxdW
+W.xxxxW...w..WW.W....W.w..w......qWdxxdW
+W    qW...w..W..WWWW.W.w..w.....q.W.xx..
+......r.xXw..W.WW....W.W..W.......WdxxdW
+Wxxxx.Wxxww..W.WW.x.WW.W..WWWWWWWWWdxxdW
+Wq    Wxxww..W.W.......W..W...wrwwW....W
+W.....Wwwww..W.W....WWWWW.W.W.w..wWWW.WW
+W.xxxxW.....WW.W....W.r W.W.W.w.wwWW...W
+W    qW.WWWWW..WcWWWW.WsW.W.W.w.w.WW.x.W
+W.....r.WdW...WWWW....WcW...W.w.w.WW...W
+Wxxxx.WrddW.W......WWWW WWWWW...w.WWWW.W
+Wq    WsWWW.WWWWWWWW..wWw..Wx.x.W.WWWW.W
+P.....W..............W...W.............W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+
+[cave]
+Name=Cave 20
+Intermission=true
+CaveDelay=5
+CaveTime=58
+DiamondsRequired=30
+DiamondValue=1 5
+AmoebaTime=999
+AmoebaThreshold=0.227
+Effect=BOUNCING_BOULDER SCANNED_BOULDER
+Effect=STARTING_FALING_DIAMOND FALLING_DIAMOND
+Effect=EXPLOSION3S SCANNED_BUTTERFLYD
+Colors=Black Black Cyan Brown Yellow
+
+[map]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+W..................W...................W
+W..................W...................W
+W..a.....a.....a...W...................W
+W..................W...................W
+W..................W...................W
+XP.................XW..................W
+W....q.....q.....q.W...................W
+W..................W...................W
+W..................W...................W
+W..................W...................W
+WWWWWWWWWWXWWWWWWWWW...................W
+W.........W............................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+W......................................W
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+[/map]
+[/cave]
+[/game]
+[/BDCFF]
